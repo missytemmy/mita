@@ -30,13 +30,14 @@
                 </div>
             </nav>
             <div class="contact">
-                <form action="#" class="formColm leftCol">
+                <form action="https://api.web3forms.com/submit" method="POST" class="formColm leftCol">
                     <div class="header">
                         <h1>Get Connected</h1>
                     </div>
+                    <input type="hidden" name="access_key" value="d037c98a-d915-4d6c-97c1-61faf2664e12">
                     <input type="text" name="name" id="name" required placeholder="Your Name...">
                     <input type="email" name="email" id="name" required placeholder="Your Email...">
-                    <textarea id="textarea" rows="10" placeholder="Your Idea here..." required></textarea>
+                    <textarea id="textarea" rows="10" name="message" placeholder="Your Idea here..." required></textarea>
                     <button type="submit">Submit</button>
                 </form>
                 <div class="formColm rightCol">
